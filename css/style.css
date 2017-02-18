@@ -63,6 +63,9 @@ header nav {
 .navbar .navbar-collapse li a:focus { background-color: transparent; }
 
 /*****SIDE NAV*****/
+@media screen and (max-width: 568cm){
+
+}
 @media screen and (max-width: 767px){
   header nav .navbar-header { padding: 10px 50px; }
   header nav .navbar-header .brand-holder {
@@ -95,17 +98,19 @@ header nav {
     background: none;
     border: none;
     z-index: 999;
-    float: right;
+
   }
   header nav .navbar-header .sideNav-btn:focus { outline: 0; }
   header nav .navbar-header .sideNav-btn .hamburger-box {
     position: relative;
     z-index: 999;
+    float: right;
   }
   header nav .navbar-header .hamburger {
     position: relative;
     right: 10px;
     padding: 0;
+
   }
   header nav .navbar-header .sideNav-btn .hamburger-box .hamburger-inner,
   header nav .navbar-header .sideNav-btn .hamburger-box .hamburger-inner:before,
