@@ -63,21 +63,8 @@ header nav {
 .navbar .navbar-collapse li a:focus { background-color: transparent; }
 
 /*****SIDE NAV*****/
+
 @media screen and (min-width: 568px){
-  header nav .navbar-header .sideNav-btn .hamburger-box {
-    float: right;
-  }
-  header nav .navbar-header .sideNav-btn{
-    float: right;
-  }
-
-  header nav .navbar-header .brand-holder h3{
-    float: left;
-
-  }
-
-}
-@media screen and (max-width: 767px){
   header nav .navbar-header { padding: 10px 50px; }
   header nav .navbar-header .brand-holder {
     position: absolute;
