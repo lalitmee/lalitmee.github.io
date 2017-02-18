@@ -69,7 +69,7 @@ header nav {
     position: absolute;
     top: -3px;
     width: 100%;
-    
+
   }
   header nav .navbar-header .brand-holder a {
     text-decoration: none;
@@ -211,6 +211,10 @@ header nav .sidenav a:hover {
   padding-top: 20px;
 }
 @media screen and (max-width: 767px) {
+  .home {
+    background: url("../images/brian-tracy-fake-it-till-you-make-it.png");
+    padding-right: 2px;
+  }
   .home .welcome-title .bigtext-holder {
     margin: 0 auto;
     text-align: center;
