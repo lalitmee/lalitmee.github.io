@@ -63,22 +63,27 @@ header nav {
 .navbar .navbar-collapse li a:focus { background-color: transparent; }
 
 /*****SIDE NAV*****/
-
-@media screen and (min-width: 568px){
+@media (min-width: 320px) and (max-width: 767px){
   header nav .navbar-header { padding: 10px 50px; }
   header nav .navbar-header .brand-holder {
     position: absolute;
     top: -3px;
-    z-index: 999;
+    width: 100%;
+    
   }
-  header nav .navbar-header .brand-holder a { text-decoration: none; }
+  header nav .navbar-header .brand-holder a {
+    text-decoration: none;
+    width: 100%;
+
+  }
   header nav .navbar-header .brand-holder h3 {
-    padding-left: 30px;
+    padding-left: -10px;
     font-size: 30px;
     font-weight: 300;
+    width: 100%;
+    text-align: left;
     text-transform: uppercase;
     float: left;
-
     color: #ffffff;
   }
   header nav .navbar-header .brand-holder h3::before {
@@ -96,19 +101,18 @@ header nav {
     background: none;
     border: none;
     z-index: 999;
-    float: right;
+
   }
   header nav .navbar-header .sideNav-btn:focus { outline: 0; }
   header nav .navbar-header .sideNav-btn .hamburger-box {
     position: relative;
     z-index: 999;
-    float: right;
+    padding-right: -1cm;
   }
   header nav .navbar-header .hamburger {
     position: relative;
     right: 10px;
     padding: 0;
-
   }
   header nav .navbar-header .sideNav-btn .hamburger-box .hamburger-inner,
   header nav .navbar-header .sideNav-btn .hamburger-box .hamburger-inner:before,
@@ -138,7 +142,7 @@ header nav .sidenav a {
   display: block;
   transition: all .4s ease-in-out;
 }
-header nav .sidenav a:active {
+header nav .sidenav a:active2 {
   letter-spacing: 5px;
   word-spacing: 5px;
   color: #f1c40f;
@@ -493,9 +497,20 @@ h3.visible-xs {
   height: 300px;
 }
 
-@media screen and (max-width: px ) {
-   .portfolio .alert {
-    height: 500px;
+@media screen and (min-width: 320px) {
+
+  .portfolio .container .row .row-1{
+    height: 400px;
+  }
+
+  .portfolio .container .row .row-2{
+    height: 400px;
+  }
+
+  .portfolio .container .row .visible-xs {
+    color: brown;
+    font-family: 'Ek Mukta', sans-serif;
+    font-size: 50px;
   }
 
 
