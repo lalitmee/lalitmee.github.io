@@ -63,7 +63,7 @@ header nav {
 .navbar .navbar-collapse li a:focus { background-color: transparent; }
 
 /*****SIDE NAV*****/
-@media (min-width: 568px) and (max-width: 640px){
+@media screen and (min-width: 568px){
   header nav .navbar-header .sideNav-btn .hamburger-box {
     float: right;
   }
