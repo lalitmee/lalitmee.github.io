@@ -1,2 +1,2 @@
-# lalitmee.github.io
-This is my Website.
+README
+This is my Webstie.
