@@ -71,6 +71,7 @@ header nav {
     width: 100%;
 
   }
+  
   header nav .navbar-header .brand-holder a {
     text-decoration: none;
     width: 100%;
@@ -107,7 +108,7 @@ header nav {
   header nav .navbar-header .sideNav-btn .hamburger-box {
     position: relative;
     z-index: 999;
-    padding-right: -1cm;
+    float: right;
   }
   header nav .navbar-header .hamburger {
     position: relative;
@@ -212,7 +213,7 @@ header nav .sidenav a:hover {
 }
 @media screen and (max-width: 767px) {
   .home {
-    background: url("../images/brian-tracy-fake-it-till-you-make-it.png");
+    background: url("../images/homepage.jpg");
     padding-right: 2px;
   }
   .home .welcome-title .bigtext-holder {
@@ -514,7 +515,7 @@ h3.visible-xs {
   .portfolio .container .row .visible-xs {
     color: brown;
     font-family: 'Ek Mukta', sans-serif;
-    font-size: 50px;
+    font-size: 30px;
   }
 
 
