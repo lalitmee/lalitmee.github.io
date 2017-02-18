@@ -76,6 +76,7 @@ header nav {
     font-size: 30px;
     font-weight: 300;
     text-transform: uppercase;
+    float: left;
 
     color: #ffffff;
   }
@@ -94,6 +95,7 @@ header nav {
     background: none;
     border: none;
     z-index: 999;
+    float: right;
   }
   header nav .navbar-header .sideNav-btn:focus { outline: 0; }
   header nav .navbar-header .sideNav-btn .hamburger-box {
@@ -133,7 +135,7 @@ header nav .sidenav a {
   display: block;
   transition: all .4s ease-in-out;
 }
-header nav .sidenav a:active2 {
+header nav .sidenav a:active {
   letter-spacing: 5px;
   word-spacing: 5px;
   color: #f1c40f;
@@ -488,8 +490,8 @@ h3.visible-xs {
   height: 300px;
 }
 
-@media screen and (max-width: 1020px ) {
-   .alert {
+@media screen and (max-width: px ) {
+   .portfolio .alert {
     height: 500px;
   }
 
