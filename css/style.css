@@ -76,7 +76,7 @@ header nav {
     font-size: 30px;
     font-weight: 300;
     text-transform: uppercase;
-    
+
     color: #ffffff;
   }
   header nav .navbar-header .brand-holder h3::before {
@@ -86,7 +86,6 @@ header nav {
     left: 3px;
     width: 40px;
     height: 40px;
-    background: url(../images/banana.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 40px;
@@ -451,9 +450,6 @@ h3.visible-xs {
 .portfolio {
   background-color: #eeeeee;
   text-align: center;
-
-
-
 }
 
 .portfolio .work-holder {
@@ -482,13 +478,22 @@ h3.visible-xs {
   height: 300px;
 }
 
+
+
 .portfolio .row-2{
   margin-top: 2cm;
   margin-bottom: 2cm;
   font-family: 'Ek Mukta', sans-serif;
   background-color: darkseagreen;
-
   height: 300px;
+}
+
+@media screen and (max-width: 1020px ) {
+  .portfolio .row-1 .row-2{
+    height: 500px;
+  }
+
+
 }
 
 /*****CONTACT*****/
