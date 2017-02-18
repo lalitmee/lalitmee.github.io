@@ -73,7 +73,7 @@ header nav {
   }
   header nav .navbar-header .brand-holder a { text-decoration: none; }
   header nav .navbar-header .brand-holder h3 {
-    padding-left: 45px;
+    padding-left: 30px;
     font-size: 30px;
     font-weight: 300;
     text-transform: uppercase;
@@ -96,7 +96,7 @@ header nav {
     background: none;
     border: none;
     z-index: 999;
-
+    float: right;
   }
   header nav .navbar-header .sideNav-btn:focus { outline: 0; }
   header nav .navbar-header .sideNav-btn .hamburger-box {
