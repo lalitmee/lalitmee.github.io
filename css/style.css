@@ -71,7 +71,7 @@ header nav {
     width: 100%;
 
   }
-  
+
   header nav .navbar-header .brand-holder a {
     text-decoration: none;
     width: 100%;
@@ -213,7 +213,7 @@ header nav .sidenav a:hover {
 }
 @media screen and (max-width: 767px) {
   .home {
-    background: url("../images/homepage.jpg");
+    background: url("../images/roads.jpg");
     padding-right: 2px;
   }
   .home .welcome-title .bigtext-holder {
@@ -578,7 +578,7 @@ h3.visible-xs {
 .contact .main-social-holder .social-holder .img-holder.fb {
 background-color: #3b5998; }
 .contact .main-social-holder .social-holder .img-holder.twt { background-color: #1da0f2; }
-.contact .main-social-holder .social-holder .img-holder.ig { background-color: #89398d; }
+.contact .main-social-holder .social-holder .img-holder.ig { background-color: royalblue; }
 .contact .main-social-holder .social-holder .img-holder.gp { background-color: #da5636; }
 .contact .main-social-holder .social-holder .img-holder.gh { background-color: #000000; }
 .contact .main-social-holder .social-holder .img-holder img {
