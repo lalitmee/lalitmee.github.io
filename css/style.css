@@ -462,45 +462,49 @@ h3.visible-xs {
 
 /*****Eduction*****/
 .portfolio {
-  background-color: #eeeeee;
+  background-color:;
   text-align: center;
+  font-family: 'Ek Mukta', sans-serif;
+  height: 27cm;
+}
+
+.portfolio .work-holder .my-work .visible-lg{
+  font-size: 60px;
 }
 
 .portfolio .work-holder {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  padding: 100px 25px;
+  padding: 100px 0 100px 0;
   margin-top: -2.5cm;
-  color: brown;
-  font-family: 'Ek Mukta', sans-serif;
+  color: rgb(244, 91, 65);
+
 
 
 }
 .portfolio .work-holder .my-work .row-1{
   position: relative;
   width: 250px;
+  background-size: transparent !important;
   height: 250px;
   overflow: hidden;
 
 }
 
-.portfolio .row-1 {
-  font-family: 'Ek Mukta', sans-serif;
-  background-color: steelblue;
-  margin-top: -4cm;
-  height: 300px;
+.portfolio .row-1 .thumbnail {
+  margin-top: -1cm;
+  background: rgb(172, 244, 65);
+}
+
+.portfolio .row-2 .thumbnail {
+  margin-top: -1cm;
+  background: rgb(244, 220, 66);
 }
 
 
 
-.portfolio .row-2{
-  margin-top: 2cm;
-  margin-bottom: 2cm;
-  font-family: 'Ek Mukta', sans-serif;
-  background-color: darkseagreen;
-  height: 300px;
-}
+
 
 @media screen and (min-width: 320px) {
 
@@ -520,6 +524,41 @@ h3.visible-xs {
 
 
 }
+
+/*******PROJECTS*********/
+
+.projects {
+  background-color:;
+  color: #1a55dd;
+  font-family: 'Ek Mukta', sans-serif;
+}
+.projects .visible-lg {
+  text-align: center;
+  font-size: 60px;
+  margin-top: 1cm;
+  margin-bottom: 2cm;
+  : blue;
+}
+
+.projects .container .thumbnail {
+  margin-bottom: 2cm;
+  font-size: 20px;
+  border: 2px solid black;
+  box-shadow:none !important;
+}
+
+.projects .container .thumbnail h3{
+  font-size: 30px;
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .projects .container .thumbnail { padding: 50px 20px 125px 20px; }
+
+  .projects .container h3.visible-xs {
+    font-size: 100px;
+  }
+}
+
 
 /*****CONTACT*****/
 .contact {
