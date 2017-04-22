@@ -484,7 +484,7 @@ h3.visible-xs {
   background-color:;
   text-align: center;
   font-family: 'Ek Mukta', sans-serif;
-  height: 32cm;
+  height: 16cm;
   padding-top: 50px;
   padding-bottom: 20px;
 }
@@ -510,16 +510,21 @@ h3.visible-xs {
   color: rgb(244, 91, 65);
 
 
+}
+.portfolio .row {
+  margin-top: -3cm;
 
 }
-.portfolio .row-1 .thumbnail {
-  margin-top: -1cm;
-  background: rgb(172, 244, 65);
+
+.portfolio .row .thumbnail .alert-info {
+  text-transform: uppercase;
+  font-size:50px;
 }
 
-.portfolio .row-2 .thumbnail {
 
-  background: rgb(244, 220, 66);
+.portfolio .row .thumbnail{
+  background:  #00bfff;
+  
 }
 
 
@@ -534,7 +539,7 @@ h3.visible-xs {
 @media screen and (max-width: 767px) {
   .portfolio { 
     padding: 50px 20px; 
-    height: 35cm;
+    height: 33cm;
 
   
   }
@@ -595,7 +600,7 @@ h3.visible-xs {
 @media screen and (max-width: 767px) {
   .projects { 
     padding: 20px 20px; 
-    height: 55cm;
+    height: 48cm;
   
   }
   @media screen and (max-width: 480px){
