@@ -483,6 +483,7 @@ h3.visible-xs {
 .portfolio {
   background-color:;
   text-align: center;
+  font-weight: 200;
   font-family: 'Ek Mukta', sans-serif;
   height: 16cm;
   padding-top: 50px;
@@ -514,19 +515,28 @@ h3.visible-xs {
 .portfolio .row {
   margin-top: -3cm;
 
+
 }
 
 .portfolio .row .thumbnail .alert-info {
   text-transform: uppercase;
   font-size:50px;
+  border: 2px solid black;
 }
 
+.portfolio p{
+  color: #f48a18;
+}
 
 .portfolio .row .thumbnail{
   background:  #00bfff;
+  border: 4px groove black;
   
 }
 
+.portfolio .row .thumbnail .alert{
+  color: black;
+}
 
 @media (min-width: 992px) and (max-width: 1199px) {
   .portfolio .work-holder { padding: 150px 125px; }
