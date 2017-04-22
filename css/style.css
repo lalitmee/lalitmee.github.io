@@ -160,7 +160,7 @@ header nav .sidenav a:hover {
   background: linear-gradient( rgba(0,0,0,.5), rgba(0,0,0,.5) ), url(../images/GO-BEYOND-THEM.jpg);
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% 100%;
 }
 .home .welcome-title {
   margin-top: 200px;
@@ -213,7 +213,9 @@ header nav .sidenav a:hover {
 }
 @media screen and (max-width: 767px) {
   .home {
-    background: url("../images/roads.jpg");
+    background: url("../images/mobile.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
     padding-right: 2px;
   }
   .home .welcome-title .bigtext-holder {
@@ -345,13 +347,30 @@ h3.visible-xs {
   background: url(../images/quotes.png);
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 15px;
+  background-size: 100% 100%;
 }
 .about-me .quote-holder span {
   font-size: 28px;
   font-weight: 100;
   font-family: 'Ek Mukta', sans-serif;
 }
+
+@media screen and (max-width: 767px) {
+
+  @media screen and (max-width: 480px){
+    .about-me h3.visible-xs{ 
+      font-size: 40px; 
+      padding: 10px 10px;
+      text-align: center;
+      letter-spacing: 10px;
+      font-weight: 200;
+      color: #141414;
+
+
+    }
+}
+}
+
 @media (min-width: 992px) and (max-width: 1199px) {
   .about-me .text-holder p { padding: 50px 20px; }
   .about-me .skill-holder { padding: 0; }
@@ -465,11 +484,21 @@ h3.visible-xs {
   background-color:;
   text-align: center;
   font-family: 'Ek Mukta', sans-serif;
-  height: 27cm;
+  height: 32cm;
+  padding-top: 50px;
+  padding-bottom: 20px;
 }
 
 .portfolio .work-holder .my-work .visible-lg{
+  text-align: center;
   font-size: 60px;
+  padding: 10px 20px;
+  margin-top: 1cm;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  margin-bottom: 2cm;
+  font-weight: 200;
+  color: #141414;
 }
 
 .portfolio .work-holder {
@@ -483,67 +512,69 @@ h3.visible-xs {
 
 
 }
-.portfolio .work-holder .my-work .row-1{
-  position: relative;
-  width: 250px;
-  background-size: transparent !important;
-  height: 250px;
-  overflow: hidden;
-
-}
-
 .portfolio .row-1 .thumbnail {
   margin-top: -1cm;
   background: rgb(172, 244, 65);
 }
 
 .portfolio .row-2 .thumbnail {
-  margin-top: -1cm;
+
   background: rgb(244, 220, 66);
 }
 
 
+@media (min-width: 992px) and (max-width: 1199px) {
+  .portfolio .work-holder { padding: 150px 125px; }
 
-
-
-@media screen and (min-width: 320px) {
-
-  .portfolio .container .row .row-1{
-    height: 400px;
+  .portfolio .work-holder .my-work .visible-lg{
+    font-size: 40px;
   }
-
-  .portfolio .container .row .row-2{
-    height: 400px;
-  }
-
-  .portfolio .container .row .visible-xs {
-    color: brown;
-    font-family: 'Ek Mukta', sans-serif;
-    font-size: 30px;
-  }
-
-
 }
 
+@media screen and (max-width: 767px) {
+  .portfolio { 
+    padding: 50px 20px; 
+    height: 35cm;
+
+  
+  }
+  @media screen and (max-width: 480px){
+    .portfolio .visible-xs{ 
+      font-size: 40px; 
+      padding: 30px 10px;
+      text-align: center;
+      letter-spacing: 10px;
+      font-weight: 200;
+      color: #141414;
+
+
+    }
+}
+}
 /*******PROJECTS*********/
 
 .projects {
   background-color:;
   color: #1a55dd;
   font-family: 'Ek Mukta', sans-serif;
+  text-align: center;
+  padding: 50px 0 30px;
 }
 .projects .visible-lg {
   text-align: center;
   font-size: 60px;
   margin-top: 1cm;
+  text-transform: uppercase;
+  letter-spacing: 10px;
   margin-bottom: 2cm;
-  : blue;
+  font-weight: 200;
+  color: #141414;
 }
 
 .projects .container .thumbnail {
   margin-bottom: 2cm;
   font-size: 20px;
-  border: 2px solid black;
+  border: 4px groove black;
   box-shadow:none !important;
 }
 
@@ -551,11 +582,30 @@ h3.visible-xs {
   font-size: 30px;
 }
 
-@media (min-width: 992px) and (max-width: 1199px) {
-  .projects .container .thumbnail { padding: 50px 20px 125px 20px; }
 
-  .projects .container h3.visible-xs {
-    font-size: 100px;
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .projects  { padding: 170px 15px; }
+
+  .portfolio .work-holder .my-work .visible-lg{
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .projects { 
+    padding: 20px 20px; 
+    height: 55cm;
+  
+  }
+  @media screen and (max-width: 480px){
+    .projects .visible-xs { 
+      font-size: 40px; 
+      text-align: center;
+  letter-spacing: 10px;
+  font-weight: 200;
+  color: #141414;
+    }
   }
 }
 
