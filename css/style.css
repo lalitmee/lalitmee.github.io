@@ -290,10 +290,10 @@ h3.visible-xs {
 .about-me .text-holder p strong { font-weight: 700; }
 .about-me .skill-holder { padding: 0 100px; }
 .about-me .skill-holder .skill {
-  margin-right: 60px;
+  /*margin-right: 60px;*/
   margin-left: 60px;
   margin-bottom: 25px;
-  float: right;
+  float: left;
 }
 .about-me .skill-holder .skill h4 {
   font-size: 18px;
@@ -514,28 +514,44 @@ h3.visible-xs {
 }
 .portfolio .row {
   margin-top: -3cm;
-
-
 }
+
+
 
 .portfolio .row .thumbnail .alert-info {
   text-transform: uppercase;
   font-size:50px;
-  border: 2px solid black;
+  /*border: 2px solid black;*/
 }
 
 .portfolio p{
-  color: #f48a18;
+  color: steelblue;
 }
 
 .portfolio .row .thumbnail{
-  background:  #00bfff;
-  border: 4px groove black;
-  
+  background: transparent;
+}
+
+.portfolio .row .back_img_1{
+  background: url('../images/school.png');
+  background-repeat: no-repeat;
+  object-fit: cover;
+  background-size: cover;
+}
+
+.portfolio .row .back_img_2{
+  background: url('../images/roads.jpg');
+  background-repeat: no-repeat;
+  object-fit: cover;
+  background-size: cover;
+}
+
+.portfolio .row .back_color{
+  background-color: rgba(0,0,0,0.7);
 }
 
 .portfolio .row .thumbnail .alert{
-  color: black;
+  color: white;
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -595,6 +611,46 @@ h3.visible-xs {
 
 .projects .container .thumbnail h3{
   font-size: 30px;
+}
+
+.back_img_3{
+  background: url('../images/internship.jpg');
+  background-repeat: no-repeat;
+  object-fit: cover;
+  background-size: cover;
+}
+
+.back_img_3 .back_color{
+  background-color: rgba(0,0,0,0.7);
+  padding: 20px;
+}
+
+.internship_info{
+  color: white;
+}
+
+.int_head{
+      text-align: center;
+    font-size: 60px;
+    margin-top: 1cm;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    margin-bottom: 2cm;
+    font-weight: 200;
+    color: #141414;
+}
+
+.int_title{
+  font-size: 30px;
+  text-decoration: underline;
+}
+
+.int_mentor{
+  font-size: 20px;
+}
+
+.int_text{
+  font-size: 20px;
 }
 
 
