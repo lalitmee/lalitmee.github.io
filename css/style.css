@@ -629,6 +629,11 @@ h3.visible-xs {
   color: white;
 }
 
+.int_company{
+  font-size: 30px;
+  color: white;
+}
+
 .int_head{
       text-align: center;
     font-size: 60px;
@@ -641,12 +646,12 @@ h3.visible-xs {
 }
 
 .int_title{
-  font-size: 30px;
+  font-size: 40px;
   text-decoration: underline;
 }
 
 .int_mentor{
-  font-size: 20px;
+  font-size: 25px;
 }
 
 .int_text{
