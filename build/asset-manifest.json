@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c3529ea5.chunk.css",
+    "main.js": "/static/js/main.22296355.chunk.js",
+    "main.js.map": "/static/js/main.22296355.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
+    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
+    "static/css/2.57dea261.chunk.css": "/static/css/2.57dea261.chunk.css",
+    "static/js/2.ff2d4c38.chunk.js": "/static/js/2.ff2d4c38.chunk.js",
+    "static/js/2.ff2d4c38.chunk.js.map": "/static/js/2.ff2d4c38.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.d4cf4504c36425e2412049c4fa11ab45.js": "/precache-manifest.d4cf4504c36425e2412049c4fa11ab45.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.57dea261.chunk.css.map": "/static/css/2.57dea261.chunk.css.map",
+    "static/css/main.c3529ea5.chunk.css.map": "/static/css/main.c3529ea5.chunk.css.map",
+    "static/media/HomePage.css": "/static/media/back5.c5241d54.png",
+    "static/media/image-loader.gif": "/static/media/image-loader.0ab5a87e.gif",
+    "static/media/index.css": "/static/media/proxima.f1448054.ttf",
+    "static/media/App.css": "/static/media/resume-image.c0e7f075.png",
+    "static/media/slick-theme.css": "/static/media/slick.f97e3bbf.svg"
+  }
+}
